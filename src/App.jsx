@@ -66,7 +66,7 @@ import ReactConfetti from 'react-confetti';
 
 
   return (
-    <main className='container' ref={mainRef}>
+    <main className="main-container" ref={mainRef}>
       {Tenzies && mainRef.current && (
         <ReactConfetti
           width={mainRef.current.clientWidth}   

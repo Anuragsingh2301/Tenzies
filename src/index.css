@@ -9,7 +9,9 @@
   height: 100vh;   
  }
 
-
+ .main-container {
+  min-width: 900px;
+ }
 
 body{
   margin:0;
